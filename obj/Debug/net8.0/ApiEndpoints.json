@@ -1,0 +1,412 @@
+[
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.ConteudoController",
+    "Method": "Post",
+    "RelativePath": "api/conteudo/create/{idCriador}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCriador",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "conteudo",
+        "Type": "PIM_VIII.API.Models.Requests.ConteudoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.ConteudoController",
+    "Method": "Delete",
+    "RelativePath": "api/conteudo/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.ConteudoController",
+    "Method": "GetAll",
+    "RelativePath": "api/conteudo/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.ConteudoController",
+    "Method": "GetById",
+    "RelativePath": "api/conteudo/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.ConteudoController",
+    "Method": "Update",
+    "RelativePath": "api/conteudo/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "conteudoRequest",
+        "Type": "PIM_VIII.API.Models.Requests.ConteudoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.CriadorController",
+    "Method": "Post",
+    "RelativePath": "api/criador/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criador",
+        "Type": "PIM_VIII.API.Models.Requests.CriadorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.CriadorController",
+    "Method": "Delete",
+    "RelativePath": "api/criador/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.CriadorController",
+    "Method": "GetAll",
+    "RelativePath": "api/criador/gat-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.CriadorController",
+    "Method": "GetById",
+    "RelativePath": "api/criador/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.CriadorController",
+    "Method": "Update",
+    "RelativePath": "api/criador/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "criadorRequest",
+        "Type": "PIM_VIII.API.Models.Requests.CriadorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.PlaylistController",
+    "Method": "AdicionarConteudo",
+    "RelativePath": "api/playlist/add-conteudo-into-playlist/{idPlaylist}/conteudo/{idConteudo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idConteudo",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "idPlaylist",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.PlaylistController",
+    "Method": "Post",
+    "RelativePath": "api/playlist/create/{idUsuario}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "playlist",
+        "Type": "PIM_VIII.API.Models.Requests.PlaylistRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.PlaylistController",
+    "Method": "Delete",
+    "RelativePath": "api/playlist/delete-playlist/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.PlaylistController",
+    "Method": "GetAll",
+    "RelativePath": "api/playlist/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.PlaylistController",
+    "Method": "GetById",
+    "RelativePath": "api/playlist/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.PlaylistController",
+    "Method": "ExcluirConteudo",
+    "RelativePath": "api/playlist/remove-conteudo-from-playlist/{idPlaylist}/conteudo/{idConteudo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idConteudo",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "idPlaylist",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.PlaylistController",
+    "Method": "Update",
+    "RelativePath": "api/playlist/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "playlistRequest",
+        "Type": "PIM_VIII.API.Models.Requests.PlaylistRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.UsuarioController",
+    "Method": "AdicionarPlaylist",
+    "RelativePath": "api/usuario/add-playlist-into-usuario/{idUsuario}/playlist/{idPlaylist}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "idPlaylist",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.UsuarioController",
+    "Method": "Post",
+    "RelativePath": "api/usuario/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "PIM_VIII.API.Models.Requests.UsuarioRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.UsuarioController",
+    "Method": "Delete",
+    "RelativePath": "api/usuario/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.UsuarioController",
+    "Method": "GetAll",
+    "RelativePath": "api/usuario/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.UsuarioController",
+    "Method": "GetById",
+    "RelativePath": "api/usuario/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.UsuarioController",
+    "Method": "ExcluirPlaylist",
+    "RelativePath": "api/usuario/remove-playlist-from-usuario/{idUsuario}/playlist/{idPlaylist}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "idPlaylist",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PIM_VIII.API.Controllers.UsuarioController",
+    "Method": "Update",
+    "RelativePath": "api/usuario/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuarioRequest",
+        "Type": "PIM_VIII.API.Models.Requests.UsuarioRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
